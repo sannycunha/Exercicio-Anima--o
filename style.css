@@ -1,0 +1,36 @@
+body{
+    font-style: col;
+    color: palevioletred;
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    background-color: pink;
+    animation: moveToRight 2s linear infinite;
+
+animation-delay: 1000ms;
+}
+
+@keyframes moveToRight {
+    
+0% {
+
+opacity: 1;
+        
+}
+50%{
+        
+opacity: 0.2;
+        
+}
+        
+100% {
+        
+opacity: 1;
+        
+}
+        
+        
+}
+h2{
+ font-size: medium;
+}
